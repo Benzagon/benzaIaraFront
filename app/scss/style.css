@@ -1,7 +1,7 @@
 html {
   font-size: 100%;
   box-sizing: border-box;
-  background-image: radial-gradient(circle, #2D2E5F, #040420);
+  background-color: #000000;
 }
 
 *, *::before, *::after {
@@ -113,6 +113,7 @@ button:hover, .button:hover {
 
 .header {
   border-bottom: 3px solid white;
+  background-color: #1A1A1A;
 }
 .header nav {
   padding: 20px 30px;
