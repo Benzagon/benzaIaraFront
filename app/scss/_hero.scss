@@ -1,0 +1,40 @@
+.hero {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+    &__image {
+        padding-right: 8.4375rem; //135px
+        padding-top: 11.25rem; //180px
+    }
+
+    &__text {
+        flex-direction: column;
+        padding-left: 12.8125rem; //205px
+        h1 {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 96px;
+            line-height: 117px;
+            padding-bottom: 55px;
+
+            background: linear-gradient(270deg, #01ADB4 13.71%, #C343FF 176.79%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+        div {
+            display: flex;
+            gap: 20px;
+        }
+    }
+
+    &__buttons {
+        width: 231px;
+        height: 40px;
+    }
+}

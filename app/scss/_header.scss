@@ -1,7 +1,7 @@
 .header {
 
     border-bottom: 3px solid white;
-
+    
     nav {
         padding: 20px 30px;
     }
@@ -21,6 +21,10 @@
 
             &:not(:last-child){
                 margin-right: 80px;
+            }
+
+            &:hover{
+                color: $lightGray;
             }
         }
     }

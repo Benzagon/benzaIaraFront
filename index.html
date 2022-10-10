@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="/app/scss/style.css">
     <title>Document</title>
@@ -14,11 +15,12 @@
 
     <header class="header">
         <nav class="flex flex-jc-sb flex ai-c">
-            <a href="/">
-                <img src="images/logoTxt.svg" alt="Iara">
-            </a>
-
+            
             <div class="header__links flex flex-ai-c wrapper">
+                <a href="/">
+                    <img src="images/logoTxt.svg" alt="Iara">
+                </a>
+                
                 <ul>
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#">Acerca de nosotros</a></li>
@@ -31,6 +33,22 @@
             </div>
         </nav>
     </header>
+
+    <section class="hero">
+        <div class="hero__image flex flex-jc-r">
+            <img src="images\landingImage.svg" alt="landingImage">
+        </div>
+
+        <div class="hero__text flex flex-ai-l flex flex-jc-c">
+            <h1>
+                El futuro,<br/>hoy.
+            </h1>
+            <div class="hero__buttons">
+                <button type="submit">Comenzar</button>
+                <button type="submit">¿Por qué Iara?</button>
+            </div>
+        </div>
+    </section>
 
     <script src="/app/js/script.js"></script>
 </body>
