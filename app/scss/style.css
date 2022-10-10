@@ -88,10 +88,6 @@ button, .button {
   font-weight: 400;
   font-size: 24px;
 }
-button:hover, .button:hover {
-  opacity: 0.8;
-}
-
 .cyanBtn {
   background: linear-gradient(to right, #01ADB4, #00858b);
   border: 0;
@@ -99,9 +95,17 @@ button:hover, .button:hover {
 }
 
 .transparantBtn {
-  background: #000000;
-  border: 1px solid #FFFFFF;
+  background: transparent;
+  color: #FFF;
+  border: 2px solid #FFF;
   border-radius: 10px;
+  background-image: url("/images/btnWaterEffect.svg");
+  background-repeat: repeat-x;
+  background-position: 0 -100%;
+  transition: 1.5s ease;
+}
+.transparantBtn:hover {
+  background-position: center;
 }
 
 @media (max-width: 63.9375em) {
