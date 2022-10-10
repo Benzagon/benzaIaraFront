@@ -1,6 +1,6 @@
 .header {
 
-    border-bottom: 3px solid white;
+    border-bottom: 3px #EBEBEB;
     background-color: $lightBlack;
     
     nav {
@@ -25,7 +25,7 @@
             }
 
             &:hover{
-                color: $lightGray;
+                //color: $lightGray;
             }
         }
     }

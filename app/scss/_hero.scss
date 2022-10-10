@@ -4,33 +4,40 @@
     justify-content: space-between;
 
     &__image {
-        padding-right: 8.4375rem; //135px
-        padding-top: 11.25rem; //180px
+        padding-right: 5.625rem; //90px
+        padding-top: 8.125rem; //130px
     }
 
     &__text {
         flex-direction: column;
         padding-left: 12.8125rem; //205px
         h1 {
-            margin: 0;
-            padding: 0;
             font-family: 'Montserrat';
             font-style: normal;
             font-weight: 700;
-            font-size: 96px;
-            line-height: 117px;
-            padding-bottom: 55px;
+            font-size: 64px;
+            line-height: 78px;
 
-            background: linear-gradient(270deg, #01ADB4 13.71%, #C343FF 176.79%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            text-fill-color: transparent;
+            color: #FFFFFF;
         }
         div {
             display: flex;
             gap: 20px;
         }
+    }
+
+    &__IARA {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 78px;
+
+        background: linear-gradient(270deg, #01ADB4 13.71%, #00555A 176.79%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
     }
 
     &__buttons {

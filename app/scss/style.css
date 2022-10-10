@@ -85,7 +85,7 @@ button, .button {
   padding-left: 2rem;
   padding-top: 0.7rem;
   padding-bottom: 0.8125rem;
-  background: linear-gradient(to right, #6579DC, #01ADB4);
+  background: linear-gradient(to right, #01ADB4, #00858b);
   border: 0;
   border-radius: 17.5px;
   cursor: pointer;
@@ -112,7 +112,7 @@ button:hover, .button:hover {
 }
 
 .header {
-  border-bottom: 3px solid white;
+  border-bottom: 3px #EBEBEB;
   background-color: #1A1A1A;
 }
 .header nav {
@@ -125,9 +125,6 @@ button:hover, .button:hover {
 .header__links a:not(:last-child) {
   margin-right: 80px;
 }
-.header__links a:hover {
-  color: rgb(192, 192, 192);
-}
 .header__cta {
   font-size: 1.5rem;
   color: #FFF;
@@ -139,31 +136,36 @@ button:hover, .button:hover {
   justify-content: space-between;
 }
 .hero__image {
-  padding-right: 8.4375rem;
-  padding-top: 11.25rem;
+  padding-right: 5.625rem;
+  padding-top: 8.125rem;
 }
 .hero__text {
   flex-direction: column;
   padding-left: 12.8125rem;
 }
 .hero__text h1 {
-  margin: 0;
-  padding: 0;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
-  font-size: 96px;
-  line-height: 117px;
-  padding-bottom: 55px;
-  background: linear-gradient(270deg, #01ADB4 13.71%, #C343FF 176.79%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
+  font-size: 64px;
+  line-height: 78px;
+  color: #FFFFFF;
 }
 .hero__text div {
   display: flex;
   gap: 20px;
+}
+.hero__IARA {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  background: linear-gradient(270deg, #01ADB4 13.71%, #00555A 176.79%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 .hero__buttons {
   width: 231px;
