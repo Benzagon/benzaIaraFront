@@ -90,25 +90,29 @@ a {
 button, .button {
     width: 259px;
     height: 49px;
-    padding-right: 2rem; //32px
-    padding-left: 2rem;
-    padding-top: 0.70rem; //13px
-    padding-bottom: 0.8125rem;
-
-    background: linear-gradient(to right, $darkCyan, $cyan);
-    border: 0;
-    border-radius: 17.5px;
     cursor: pointer;
 
     white-space: nowrap;
     color: $white;
-    font-weight: 400;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     font-size: 24px;
 
     &:hover {
         opacity: 0.80;
     }
+}
+
+.cyanBtn {
+    background: linear-gradient(to right, $darkCyan, $cyan);
+    border: 0;
+    border-radius: 10px;
+}
+
+.transparantBtn {
+    background: $black;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
 }
 
 //visibility
