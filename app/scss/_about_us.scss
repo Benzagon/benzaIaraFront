@@ -1,0 +1,18 @@
+.about {
+    padding-top: 145px;
+
+    &__team_card {
+        a {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 72px;
+            color: $white;
+            
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+        }
+    }
+}
