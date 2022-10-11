@@ -264,6 +264,17 @@ button:hover, button:focus, buttonactive, .button:hover, .button:focus, .buttona
 .about {
   padding-top: 145px;
 }
+.about__team_card {
+  background: linear-gradient(to right, #01ADB4, #00858b);
+  height: 226px;
+  width: 578px;
+  left: -23px;
+  top: 2422px;
+  border-radius: 18px;
+  padding: 10px 30px 10px 30px;
+  display: flex;
+  align-items: center;
+}
 .about__team_card a {
   font-family: "Montserrat";
   font-style: normal;
@@ -274,4 +285,37 @@ button:hover, button:focus, buttonactive, .button:hover, .button:focus, .buttona
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+.about__image_cards {
+  padding-top: 58px;
+}
+.about__name {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFF;
+}
+.about__duty {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFF;
+}
+.about__single_card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 311.52px;
+  height: 493px;
+  left: 119px;
+  top: 2705px;
+  background: #000000;
+  border: 2px solid #FFFFFF;
+  border-radius: 11px;
 }/*# sourceMappingURL=style.css.map */

@@ -2,6 +2,17 @@
     padding-top: 145px;
 
     &__team_card {
+        background: linear-gradient(to right, $darkCyan, $cyan);
+        height: 226px;
+        width: 578px;
+        left: -23px;
+        top: 2422px;
+        border-radius: 18px;
+        padding: 10px 30px 10px 30px;
+
+        display: flex;
+        align-items: center;
+
         a {
             font-family: 'Montserrat';
             font-style: normal;
@@ -9,10 +20,50 @@
             font-size: 48px;
             line-height: 72px;
             color: $white;
-            
+
             flex: none;
             order: 0;
             flex-grow: 0;
         }
+    }
+
+    &__image_cards {
+        padding-top: 58px;
+
+    }
+
+    &__name {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: $white;
+    }
+
+    &__duty {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: $white;
+    }
+
+    &__single_card {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        position: absolute;
+        width: 311.52px;
+        height: 493px;
+        left: 119px;
+        top: 2705px;
+
+        background: #000000;
+        border: 2px solid #FFFFFF;
+        border-radius: 11px;
     }
 }
