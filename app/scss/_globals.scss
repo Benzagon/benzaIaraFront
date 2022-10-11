@@ -1,6 +1,8 @@
 html {
     font-size: 100%;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     background-color: $black;
 }
 
@@ -98,8 +100,8 @@ button, .button {
     font-weight: 400;
     font-size: 24px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    -webkit-transition-duraion: 1.5s;
-    transition-duration: 1.5s;
+    -webkit-transition-duraion: 0.5s;
+    transition-duration: 0.5s;
     -webkit-transition-property: box-shadow, transform;
     transition-property: box-shadow, transform;
 
@@ -124,7 +126,7 @@ button, .button {
     background-image: url("/images/btnWaterEffect.svg");
     background-repeat: repeat-x;
     background-position: 0 -100%;
-    transition: 1.25s ease;
+    transition: 0.5s ease;
 
     &:hover{
        background-position: center; 
