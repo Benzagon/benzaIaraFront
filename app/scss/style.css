@@ -42,7 +42,7 @@ a {
   left: 0;
   transform: scaleX(0);
   transform-origin: bottom right;
-  transition: transform 0.2s linear;
+  transition: transform 0.3s linear;
 }
 
 .wrapper ul li a:hover:after {
@@ -87,7 +87,16 @@ button, .button {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 24px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -webkit-transition-duraion: 1.5s;
+  transition-duration: 1.5s;
+  transition-property: box-shadow, transform;
 }
+button:hover, button:focus, buttonactive, .button:hover, .button:focus, .buttonactive {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  transform: scale(1.1);
+}
+
 .cyanBtn {
   background: linear-gradient(to right, #01ADB4, #00858b);
   border: 0;
@@ -102,10 +111,19 @@ button, .button {
   background-image: url("/images/btnWaterEffect.svg");
   background-repeat: repeat-x;
   background-position: 0 -100%;
-  transition: 1.5s ease;
+  transition: 1.25s ease;
 }
 .transparantBtn:hover {
   background-position: center;
+}
+
+.levitate {
+  -webkit-transition-duraion: 1.25s;
+  transition-duration: 1.25s;
+  transition-property: box-shadow, transform;
+}
+.levitate:hover, .levitate:focus, .levitateactive {
+  transform: scale(1.1);
 }
 
 @media (max-width: 63.9375em) {
@@ -123,6 +141,8 @@ button, .button {
 .header {
   border-bottom: 3px #EBEBEB;
   background-color: #1A1A1A;
+  width: 100%;
+  position: fixed;
 }
 .header nav {
   padding: 20px 30px;
@@ -146,7 +166,7 @@ button, .button {
 }
 .hero__image {
   padding-right: 5.625rem;
-  padding-top: 8.125rem;
+  padding-top: 14.6875rem;
 }
 .hero__text {
   flex-direction: column;
@@ -159,6 +179,7 @@ button, .button {
   font-weight: 700;
   font-size: 64px;
   line-height: 78px;
+  cursor: default;
   color: #FFF;
 }
 .hero__text button {
@@ -176,6 +197,7 @@ button, .button {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
+  cursor: default;
   color: #FFF;
 }
 .hero__buttons {
@@ -219,6 +241,7 @@ button, .button {
   line-height: 39px;
   text-align: center;
   color: #FFF;
+  cursor: default;
 }
 .cards p {
   font-family: "Montserrat";
@@ -228,4 +251,12 @@ button, .button {
   line-height: 24px;
   text-align: center;
   color: #FFF;
+  cursor: default;
+}
+
+.full_image {
+  padding-top: 63px;
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
 }/*# sourceMappingURL=style.css.map */

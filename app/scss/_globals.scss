@@ -44,7 +44,7 @@ a {
     left: 0;
     transform: scaleX(0);
     transform-origin: bottom right;
-    transition: transform 0.20s linear;
+    transition: transform 0.3s linear;
 }
 
 .wrapper ul li a:hover:after{
@@ -97,9 +97,16 @@ button, .button {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 24px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duraion: 1.5s;
+    transition-duration: 1.5s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
 
-    &:hover {
-        //opacity: 0.80;
+    &:hover, &:focus, &active {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
     }
 }
 
@@ -117,10 +124,22 @@ button, .button {
     background-image: url("/images/btnWaterEffect.svg");
     background-repeat: repeat-x;
     background-position: 0 -100%;
-    transition: 1.5s ease;
+    transition: 1.25s ease;
 
     &:hover{
        background-position: center; 
+    }
+}
+
+.levitate {
+    -webkit-transition-duraion: 1.25s;
+    transition-duration: 1.25s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+
+    &:hover, &:focus, &active {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
     }
 }
 
