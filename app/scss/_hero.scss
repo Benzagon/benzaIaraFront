@@ -22,12 +22,6 @@
             color: $white;
         }
 
-        div { //For buttons
-            display: flex;
-            padding-top: 20px;
-            gap: 20px;
-        }
-
         button {
             width: 231px;
             height: 40px;
@@ -48,6 +42,12 @@
 
             color: $white;
         }
+    }
+
+    &__buttons {
+        display: flex;
+        padding-top: 20px;
+        gap: 20px;
     }
 
     &__IARAtxt {

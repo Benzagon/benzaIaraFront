@@ -1,7 +1,7 @@
 html {
   font-size: 100%;
   box-sizing: border-box;
-  background-color: #000000;
+  background-color: #151313;
 }
 
 *, *::before, *::after {
@@ -161,11 +161,6 @@ button, .button {
   line-height: 78px;
   color: #FFF;
 }
-.hero__text div {
-  display: flex;
-  padding-top: 20px;
-  gap: 20px;
-}
 .hero__text button {
   width: 231px;
   height: 40px;
@@ -183,6 +178,11 @@ button, .button {
   line-height: 24px;
   color: #FFF;
 }
+.hero__buttons {
+  display: flex;
+  padding-top: 20px;
+  gap: 20px;
+}
 .hero__IARAtxt {
   font-family: "Montserrat";
   font-style: normal;
@@ -197,4 +197,29 @@ button, .button {
 }
 .hero__gratuitatxt {
   font-style: italic;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+.cards h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #FFF;
+}
+.cards p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFF;
 }/*# sourceMappingURL=style.css.map */
