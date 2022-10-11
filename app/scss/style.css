@@ -3,7 +3,7 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #151313;
+  background-image: radial-gradient(circle, #161526, #242333);
 }
 
 *, *::before, *::after {
@@ -225,6 +225,7 @@ button:hover, button:focus, buttonactive, .button:hover, .button:focus, .buttona
 }
 
 .cards {
+  background-color: #13163A;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
